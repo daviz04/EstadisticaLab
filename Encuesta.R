@@ -1,8 +1,6 @@
 #Lectura del csv
-encuesta = read.csv2("C:/Users/UAH/Documents/Estadistica/EstadisticaLab/EncuestaLab.csv")
+encuesta = read.csv("C:/Users/ibane/OneDrive/Documentos/Estadistica/EstadisticaLab/EncuestaLab.csv")
 print(encuesta)
-rm(sexo)
-
 #Creacion de tablas con las diferentes columnas
 edad = encuesta$Edad;
 print(edad)
@@ -16,10 +14,18 @@ print(periodo);
 total = encuesta$Total
 print(total)
 
-mayoresEdad = encuesta$Edad[encuesta$Edad>=18];
+mayoresEdad = encuesta$Total[encuesta$Edad>=18];
 print(mayoresEdad)
 print(length(mayoresEdad))
 
-menoresEdad = encuesta$Edad[encuesta$Edad<18];
+menoresEdad = encuesta$Total[encuesta$Edad<18];
 print(menoresEdad)
 print(length(menoresEdad))
+
+media_hombres = mean(encuesta$Total[encuesta$Sexo == "Hombre"])
+media_mujeres = mean(encuesta$Total[encuesta$Sexo == "Mujer"])
+
+mediana_hombres = median(encuesta$Total[encuesta$Sexo == "Hombre"])
+mediana_mujeres = median(encuesta$Total[encuesta$Sexo == "Mujer"])
+
+rango_de_edad = range(edad)
