@@ -1,553 +1,183 @@
-﻿Edad;Sexo;Periodo;Total
-100;Ambos Sexos;2022;1.258.894
-100;Ambos Sexos;2021;887.960
-100;Hombre;2022;626.804
-100;Hombre;2021;467.162
-100;Mujer;2022;632.090
-100;Mujer;2021;420.798
-0;Ambos Sexos;2022;9.254
-0;Ambos Sexos;2021;6.550
-0;Hombre;2022;4.706
-0;Hombre;2021;3.388
-0;Mujer;2022;4.548
-0;Mujer;2021;3.162
-1;Ambos Sexos;2022;11.901
-1;Ambos Sexos;2021;7.620
-1;Hombre;2022;6.047
-1;Hombre;2021;3.888
-1;Mujer;2022;5.854
-1;Mujer;2021;3.732
-2;Ambos Sexos;2022;12.053
-2;Ambos Sexos;2021;7.567
-2;Hombre;2022;6.124
-2;Hombre;2021;3.874
-2;Mujer;2022;5.929
-2;Mujer;2021;3.693
-3;Ambos Sexos;2022;12.548
-3;Ambos Sexos;2021;7.553
-3;Hombre;2022;6.432
-3;Hombre;2021;3.963
-3;Mujer;2022;6.116
-3;Mujer;2021;3.590
-4;Ambos Sexos;2022;13.043
-4;Ambos Sexos;2021;7.895
-4;Hombre;2022;6.798
-4;Hombre;2021;4.051
-4;Mujer;2022;6.245
-4;Mujer;2021;3.844
-5;Ambos Sexos;2022;13.642
-5;Ambos Sexos;2021;7.999
-5;Hombre;2022;6.991
-5;Hombre;2021;4.071
-5;Mujer;2022;6.651
-5;Mujer;2021;3.928
-6;Ambos Sexos;2022;13.821
-6;Ambos Sexos;2021;8.437
-6;Hombre;2022;7.130
-6;Hombre;2021;4.375
-6;Mujer;2022;6.691
-6;Mujer;2021;4.062
-7;Ambos Sexos;2022;13.732
-7;Ambos Sexos;2021;8.249
-7;Hombre;2022;6.947
-7;Hombre;2021;4.215
-7;Mujer;2022;6.785
-7;Mujer;2021;4.034
-8;Ambos Sexos;2022;13.831
-8;Ambos Sexos;2021;8.076
-8;Hombre;2022;7.117
-8;Hombre;2021;4.216
-8;Mujer;2022;6.714
-8;Mujer;2021;3.860
-9;Ambos Sexos;2022;13.641
-9;Ambos Sexos;2021;7.962
-9;Hombre;2022;7.010
-9;Hombre;2021;4.232
-9;Mujer;2022;6.631
-9;Mujer;2021;3.730
-10;Ambos Sexos;2022;13.428
-10;Ambos Sexos;2021;7.885
-10;Hombre;2022;6.888
-10;Hombre;2021;4.076
-10;Mujer;2022;6.540
-10;Mujer;2021;3.809
-11;Ambos Sexos;2022;13.584
-11;Ambos Sexos;2021;8.120
-11;Hombre;2022;6.953
-11;Hombre;2021;4.253
-11;Mujer;2022;6.631
-11;Mujer;2021;3.867
-12;Ambos Sexos;2022;13.371
-12;Ambos Sexos;2021;7.603
-12;Hombre;2022;6.834
-12;Hombre;2021;3.940
-12;Mujer;2022;6.537
-12;Mujer;2021;3.663
-13;Ambos Sexos;2022;13.445
-13;Ambos Sexos;2021;7.422
-13;Hombre;2022;6.906
-13;Hombre;2021;3.841
-13;Mujer;2022;6.539
-13;Mujer;2021;3.581
-14;Ambos Sexos;2022;13.110
-14;Ambos Sexos;2021;7.668
-14;Hombre;2022;6.732
-14;Hombre;2021;4.035
-14;Mujer;2022;6.378
-14;Mujer;2021;3.633
-15;Ambos Sexos;2022;12.895
-15;Ambos Sexos;2021;8.005
-15;Hombre;2022;6.771
-15;Hombre;2021;4.354
-15;Mujer;2022;6.124
-15;Mujer;2021;3.651
-16;Ambos Sexos;2022;13.109
-16;Ambos Sexos;2021;8.857
-16;Hombre;2022;7.299
-16;Hombre;2021;5.162
-16;Mujer;2022;5.810
-16;Mujer;2021;3.695
-17;Ambos Sexos;2022;15.585
-17;Ambos Sexos;2021;11.185
-17;Hombre;2022;9.189
-17;Hombre;2021;6.860
-17;Mujer;2022;6.396
-17;Mujer;2021;4.325
-18;Ambos Sexos;2022;22.776
-18;Ambos Sexos;2021;16.888
-18;Hombre;2022;12.141
-18;Hombre;2021;9.574
-18;Mujer;2022;10.635
-18;Mujer;2021;7.314
-19;Ambos Sexos;2022;23.170
-19;Ambos Sexos;2021;16.697
-19;Hombre;2022;11.996
-19;Hombre;2021;9.255
-19;Mujer;2022;11.174
-19;Mujer;2021;7.442
-20;Ambos Sexos;2022;23.898
-20;Ambos Sexos;2021;16.657
-20;Hombre;2022;12.419
-20;Hombre;2021;9.077
-20;Mujer;2022;11.479
-20;Mujer;2021;7.580
-21;Ambos Sexos;2022;24.976
-21;Ambos Sexos;2021;17.351
-21;Hombre;2022;13.007
-21;Hombre;2021;9.473
-21;Mujer;2022;11.969
-21;Mujer;2021;7.878
-22;Ambos Sexos;2022;27.729
-22;Ambos Sexos;2021;18.600
-22;Hombre;2022;13.983
-22;Hombre;2021;9.603
-22;Mujer;2022;13.746
-22;Mujer;2021;8.997
-23;Ambos Sexos;2022;28.341
-23;Ambos Sexos;2021;20.009
-23;Hombre;2022;14.415
-23;Hombre;2021;10.487
-23;Mujer;2022;13.926
-23;Mujer;2021;9.522
-24;Ambos Sexos;2022;30.733
-24;Ambos Sexos;2021;20.973
-24;Hombre;2022;15.448
-24;Hombre;2021;10.922
-24;Mujer;2022;15.285
-24;Mujer;2021;10.051
-25;Ambos Sexos;2022;32.077
-25;Ambos Sexos;2021;22.034
-25;Hombre;2022;16.212
-25;Hombre;2021;11.510
-25;Mujer;2022;15.865
-25;Mujer;2021;10.524
-26;Ambos Sexos;2022;32.770
-26;Ambos Sexos;2021;22.581
-26;Hombre;2022;16.661
-26;Hombre;2021;11.749
-26;Mujer;2022;16.109
-26;Mujer;2021;10.832
-27;Ambos Sexos;2022;32.725
-27;Ambos Sexos;2021;22.324
-27;Hombre;2022;16.567
-27;Hombre;2021;11.811
-27;Mujer;2022;16.158
-27;Mujer;2021;10.513
-28;Ambos Sexos;2022;32.181
-28;Ambos Sexos;2021;21.970
-28;Hombre;2022;16.335
-28;Hombre;2021;11.622
-28;Mujer;2022;15.846
-28;Mujer;2021;10.348
-29;Ambos Sexos;2022;31.438
-29;Ambos Sexos;2021;21.734
-29;Hombre;2022;16.050
-29;Hombre;2021;11.554
-29;Mujer;2022;15.388
-29;Mujer;2021;10.180
-30;Ambos Sexos;2022;31.069
-30;Ambos Sexos;2021;21.376
-30;Hombre;2022;15.704
-30;Hombre;2021;11.354
-30;Mujer;2022;15.365
-30;Mujer;2021;10.022
-31;Ambos Sexos;2022;30.343
-31;Ambos Sexos;2021;21.166
-31;Hombre;2022;15.354
-31;Hombre;2021;11.402
-31;Mujer;2022;14.989
-31;Mujer;2021;9.764
-32;Ambos Sexos;2022;29.869
-32;Ambos Sexos;2021;20.105
-32;Hombre;2022;15.094
-32;Hombre;2021;10.668
-32;Mujer;2022;14.775
-32;Mujer;2021;9.437
-33;Ambos Sexos;2022;29.205
-33;Ambos Sexos;2021;19.475
-33;Hombre;2022;14.703
-33;Hombre;2021;10.422
-33;Mujer;2022;14.502
-33;Mujer;2021;9.053
-34;Ambos Sexos;2022;28.315
-34;Ambos Sexos;2021;18.603
-34;Hombre;2022;14.218
-34;Hombre;2021;9.910
-34;Mujer;2022;14.097
-34;Mujer;2021;8.693
-35;Ambos Sexos;2022;27.303
-35;Ambos Sexos;2021;17.808
-35;Hombre;2022;13.534
-35;Hombre;2021;9.522
-35;Mujer;2022;13.769
-35;Mujer;2021;8.286
-36;Ambos Sexos;2022;25.804
-36;Ambos Sexos;2021;17.342
-36;Hombre;2022;12.837
-36;Hombre;2021;9.266
-36;Mujer;2022;12.967
-36;Mujer;2021;8.076
-37;Ambos Sexos;2022;25.145
-37;Ambos Sexos;2021;16.799
-37;Hombre;2022;12.432
-37;Hombre;2021;8.923
-37;Mujer;2022;12.713
-37;Mujer;2021;7.876
-38;Ambos Sexos;2022;24.321
-38;Ambos Sexos;2021;16.189
-38;Hombre;2022;11.922
-38;Hombre;2021;8.684
-38;Mujer;2022;12.399
-38;Mujer;2021;7.505
-39;Ambos Sexos;2022;23.780
-39;Ambos Sexos;2021;16.391
-39;Hombre;2022;11.728
-39;Hombre;2021;8.701
-39;Mujer;2022;12.052
-39;Mujer;2021;7.690
-40;Ambos Sexos;2022;23.033
-40;Ambos Sexos;2021;15.783
-40;Hombre;2022;11.274
-40;Hombre;2021;8.487
-40;Mujer;2022;11.759
-40;Mujer;2021;7.296
-41;Ambos Sexos;2022;22.089
-41;Ambos Sexos;2021;15.379
-41;Hombre;2022;11.031
-41;Hombre;2021;8.325
-41;Mujer;2022;11.058
-41;Mujer;2021;7.054
-42;Ambos Sexos;2022;21.109
-42;Ambos Sexos;2021;14.742
-42;Hombre;2022;10.539
-42;Hombre;2021;7.956
-42;Mujer;2022;10.570
-42;Mujer;2021;6.786
-43;Ambos Sexos;2022;19.915
-43;Ambos Sexos;2021;14.201
-43;Hombre;2022;10.089
-43;Hombre;2021;7.620
-43;Mujer;2022;9.826
-43;Mujer;2021;6.581
-44;Ambos Sexos;2022;19.292
-44;Ambos Sexos;2021;13.719
-44;Hombre;2022;9.674
-44;Hombre;2021;7.500
-44;Mujer;2022;9.618
-44;Mujer;2021;6.219
-45;Ambos Sexos;2022;18.167
-45;Ambos Sexos;2021;13.362
-45;Hombre;2022;9.074
-45;Hombre;2021;7.309
-45;Mujer;2022;9.093
-45;Mujer;2021;6.053
-46;Ambos Sexos;2022;17.379
-46;Ambos Sexos;2021;12.358
-46;Hombre;2022;8.785
-46;Hombre;2021;6.769
-46;Mujer;2022;8.594
-46;Mujer;2021;5.589
-47;Ambos Sexos;2022;16.288
-47;Ambos Sexos;2021;12.142
-47;Hombre;2022;8.085
-47;Hombre;2021;6.494
-47;Mujer;2022;8.203
-47;Mujer;2021;5.648
-48;Ambos Sexos;2022;15.403
-48;Ambos Sexos;2021;11.390
-48;Hombre;2022;7.573
-48;Hombre;2021;6.254
-48;Mujer;2022;7.830
-48;Mujer;2021;5.136
-49;Ambos Sexos;2022;14.665
-49;Ambos Sexos;2021;11.309
-49;Hombre;2022;7.112
-49;Hombre;2021;6.000
-49;Mujer;2022;7.553
-49;Mujer;2021;5.309
-50;Ambos Sexos;2022;14.300
-50;Ambos Sexos;2021;11.085
-50;Hombre;2022;6.848
-50;Hombre;2021;5.863
-50;Mujer;2022;7.452
-50;Mujer;2021;5.222
-51;Ambos Sexos;2022;13.637
-51;Ambos Sexos;2021;10.635
-51;Hombre;2022;6.475
-51;Hombre;2021;5.704
-51;Mujer;2022;7.162
-51;Mujer;2021;4.931
-52;Ambos Sexos;2022;12.970
-52;Ambos Sexos;2021;10.172
-52;Hombre;2022;6.201
-52;Hombre;2021;5.320
-52;Mujer;2022;6.769
-52;Mujer;2021;4.852
-53;Ambos Sexos;2022;12.146
-53;Ambos Sexos;2021;9.828
-53;Hombre;2022;5.760
-53;Hombre;2021;5.069
-53;Mujer;2022;6.386
-53;Mujer;2021;4.759
-54;Ambos Sexos;2022;11.865
-54;Ambos Sexos;2021;9.000
-54;Hombre;2022;5.604
-54;Hombre;2021;4.629
-54;Mujer;2022;6.261
-54;Mujer;2021;4.371
-55;Ambos Sexos;2022;10.867
-55;Ambos Sexos;2021;8.834
-55;Hombre;2022;5.061
-55;Hombre;2021;4.487
-55;Mujer;2022;5.806
-55;Mujer;2021;4.347
-56;Ambos Sexos;2022;10.212
-56;Ambos Sexos;2021;8.563
-56;Hombre;2022;4.753
-56;Hombre;2021;4.392
-56;Mujer;2022;5.459
-56;Mujer;2021;4.171
-57;Ambos Sexos;2022;9.949
-57;Ambos Sexos;2021;8.298
-57;Hombre;2022;4.559
-57;Hombre;2021;4.155
-57;Mujer;2022;5.390
-57;Mujer;2021;4.143
-58;Ambos Sexos;2022;9.406
-58;Ambos Sexos;2021;7.880
-58;Hombre;2022;4.234
-58;Hombre;2021;4.021
-58;Mujer;2022;5.172
-58;Mujer;2021;3.859
-59;Ambos Sexos;2022;8.983
-59;Ambos Sexos;2021;7.338
-59;Hombre;2022;4.035
-59;Hombre;2021;3.645
-59;Mujer;2022;4.948
-59;Mujer;2021;3.693
-60;Ambos Sexos;2022;8.560
-60;Ambos Sexos;2021;7.167
-60;Hombre;2022;3.875
-60;Hombre;2021;3.575
-60;Mujer;2022;4.685
-60;Mujer;2021;3.592
-61;Ambos Sexos;2022;7.973
-61;Ambos Sexos;2021;6.647
-61;Hombre;2022;3.545
-61;Hombre;2021;3.274
-61;Mujer;2022;4.428
-61;Mujer;2021;3.373
-62;Ambos Sexos;2022;7.740
-62;Ambos Sexos;2021;6.544
-62;Hombre;2022;3.397
-62;Hombre;2021;3.178
-62;Mujer;2022;4.343
-62;Mujer;2021;3.366
-63;Ambos Sexos;2022;7.277
-63;Ambos Sexos;2021;6.214
-63;Hombre;2022;3.264
-63;Hombre;2021;3.017
-63;Mujer;2022;4.013
-63;Mujer;2021;3.197
-64;Ambos Sexos;2022;6.894
-64;Ambos Sexos;2021;6.027
-64;Hombre;2022;3.005
-64;Hombre;2021;2.876
-64;Mujer;2022;3.889
-64;Mujer;2021;3.151
-65;Ambos Sexos;2022;6.810
-65;Ambos Sexos;2021;5.904
-65;Hombre;2022;3.096
-65;Hombre;2021;2.778
-65;Mujer;2022;3.714
-65;Mujer;2021;3.126
-66;Ambos Sexos;2022;6.401
-66;Ambos Sexos;2021;5.718
-66;Hombre;2022;2.839
-66;Hombre;2021;2.819
-66;Mujer;2022;3.562
-66;Mujer;2021;2.899
-67;Ambos Sexos;2022;5.700
-67;Ambos Sexos;2021;5.085
-67;Hombre;2022;2.429
-67;Hombre;2021;2.455
-67;Mujer;2022;3.271
-67;Mujer;2021;2.630
-68;Ambos Sexos;2022;5.013
-68;Ambos Sexos;2021;4.600
-68;Hombre;2022;2.106
-68;Hombre;2021;2.202
-68;Mujer;2022;2.907
-68;Mujer;2021;2.398
-69;Ambos Sexos;2022;4.536
-69;Ambos Sexos;2021;4.192
-69;Hombre;2022;1.959
-69;Hombre;2021;1.997
-69;Mujer;2022;2.577
-69;Mujer;2021;2.195
-70;Ambos Sexos;2022;4.228
-70;Ambos Sexos;2021;3.796
-70;Hombre;2022;1.777
-70;Hombre;2021;1.802
-70;Mujer;2022;2.451
-70;Mujer;2021;1.994
-71;Ambos Sexos;2022;3.682
-71;Ambos Sexos;2021;3.619
-71;Hombre;2022;1.542
-71;Hombre;2021;1.699
-71;Mujer;2022;2.140
-71;Mujer;2021;1.920
-72;Ambos Sexos;2022;3.624
-72;Ambos Sexos;2021;3.476
-72;Hombre;2022;1.464
-72;Hombre;2021;1.590
-72;Mujer;2022;2.160
-72;Mujer;2021;1.886
-73;Ambos Sexos;2022;3.274
-73;Ambos Sexos;2021;3.206
-73;Hombre;2022;1.405
-73;Hombre;2021;1.559
-73;Mujer;2022;1.869
-73;Mujer;2021;1.647
-74;Ambos Sexos;2022;2.750
-74;Ambos Sexos;2021;2.962
-74;Hombre;2022;1.185
-74;Hombre;2021;1.449
-74;Mujer;2022;1.565
-74;Mujer;2021;1.513
-75;Ambos Sexos;2022;2.641
-75;Ambos Sexos;2021;2.492
-75;Hombre;2022;1.139
-75;Hombre;2021;1.170
-75;Mujer;2022;1.502
-75;Mujer;2021;1.322
-76;Ambos Sexos;2022;2.229
-76;Ambos Sexos;2021;2.220
-76;Hombre;2022;933
-76;Hombre;2021;1.029
-76;Mujer;2022;1.296
-76;Mujer;2021;1.191
-77;Ambos Sexos;2022;1.911
-77;Ambos Sexos;2021;2.139
-77;Hombre;2022;800
-77;Hombre;2021;1.013
-77;Mujer;2022;1.111
-77;Mujer;2021;1.126
-78;Ambos Sexos;2022;1.729
-78;Ambos Sexos;2021;1.778
-78;Hombre;2022;728
-78;Hombre;2021;849
-78;Mujer;2022;1.001
-78;Mujer;2021;929
-79;Ambos Sexos;2022;1.451
-79;Ambos Sexos;2021;1.562
-79;Hombre;2022;630
-79;Hombre;2021;759
-79;Mujer;2022;821
-79;Mujer;2021;803
-80;Ambos Sexos;2022;1.398
-80;Ambos Sexos;2021;1.401
-80;Hombre;2022;563
-80;Hombre;2021;619
-80;Mujer;2022;835
-80;Mujer;2021;782
-81;Ambos Sexos;2022;1.212
-81;Ambos Sexos;2021;1.238
-81;Hombre;2022;481
-81;Hombre;2021;576
-81;Mujer;2022;731
-81;Mujer;2021;662
-82;Ambos Sexos;2022;1.072
-82;Ambos Sexos;2021;1.037
-82;Hombre;2022;442
-82;Hombre;2021;488
-82;Mujer;2022;630
-82;Mujer;2021;549
-83;Ambos Sexos;2022;873
-83;Ambos Sexos;2021;884
-83;Hombre;2022;339
-83;Hombre;2021;400
-83;Mujer;2022;534
-83;Mujer;2021;484
-84;Ambos Sexos;2022;813
-84;Ambos Sexos;2021;787
-84;Hombre;2022;287
-84;Hombre;2021;346
-84;Mujer;2022;526
-84;Mujer;2021;441
-85;Ambos Sexos;2022;715
-85;Ambos Sexos;2021;698
-85;Hombre;2022;262
-85;Hombre;2021;320
-85;Mujer;2022;453
-85;Mujer;2021;378
-86;Ambos Sexos;2022;558
-86;Ambos Sexos;2021;574
-86;Hombre;2022;209
-86;Hombre;2021;256
-86;Mujer;2022;349
-86;Mujer;2021;318
-87;Ambos Sexos;2022;470
-87;Ambos Sexos;2021;439
-87;Hombre;2022;162
-87;Hombre;2021;177
-87;Mujer;2022;308
-87;Mujer;2021;262
-88;Ambos Sexos;2022;364
-88;Ambos Sexos;2021;367
-88;Hombre;2022;119
-88;Hombre;2021;137
-88;Mujer;2022;245
-88;Mujer;2021;230
-89;Ambos Sexos;2022;296
-89;Ambos Sexos;2021;328
-89;Hombre;2022;99
-89;Hombre;2021;125
-89;Mujer;2022;197
-89;Mujer;2021;203
-90;Ambos Sexos;2022;1.064
-90;Ambos Sexos;2021;1.116
-90;Hombre;2022;323
-90;Hombre;2021;346
-90;Mujer;2022;741
-90;Mujer;2021;770
+Edad,Sexo,Total
+0,Hombre,4706
+0,Mujer,4548
+1,Hombre,6047
+1,Mujer,5854
+2,Hombre,6124
+2,Mujer,5929
+3,Hombre,6432
+3,Mujer,6116
+4,Hombre,6798
+4,Mujer,6245
+5,Hombre,6991
+5,Mujer,6651
+6,Hombre,7130
+6,Mujer,6691
+7,Hombre,6947
+7,Mujer,6785
+8,Hombre,7117
+8,Mujer,6714
+9,Hombre,7010
+9,Mujer,6631
+10,Hombre,6888
+10,Mujer,6540
+11,Hombre,6953
+11,Mujer,6631
+12,Hombre,6834
+12,Mujer,6537
+13,Hombre,6906
+13,Mujer,6539
+14,Hombre,6732
+14,Mujer,6378
+15,Hombre,6771
+15,Mujer,6124
+16,Hombre,7299
+16,Mujer,5810
+17,Hombre,9189
+17,Mujer,6396
+18,Hombre,12141
+18,Mujer,10635
+19,Hombre,11996
+19,Mujer,11174
+20,Hombre,12419
+20,Mujer,11479
+21,Hombre,13007
+21,Mujer,11969
+22,Hombre,13983
+22,Mujer,13746
+23,Hombre,14415
+23,Mujer,13926
+24,Hombre,15448
+24,Mujer,15285
+25,Hombre,16212
+25,Mujer,15865
+26,Hombre,16661
+26,Mujer,16109
+27,Hombre,16567
+27,Mujer,16158
+28,Hombre,16335
+28,Mujer,15846
+29,Hombre,16050
+29,Mujer,15388
+30,Hombre,15704
+30,Mujer,15365
+31,Hombre,15354
+31,Mujer,14989
+32,Hombre,15094
+32,Mujer,14775
+33,Hombre,14703
+33,Mujer,14502
+34,Hombre,14218
+34,Mujer,14097
+35,Hombre,13534
+35,Mujer,13769
+36,Hombre,12837
+36,Mujer,12967
+37,Hombre,12432
+37,Mujer,12713
+38,Hombre,11922
+38,Mujer,12399
+39,Hombre,11728
+39,Mujer,12052
+40,Hombre,11274
+40,Mujer,11759
+41,Hombre,11031
+41,Mujer,11058
+42,Hombre,10539
+42,Mujer,10570
+43,Hombre,10089
+43,Mujer,9826
+44,Hombre,9674
+44,Mujer,9618
+45,Hombre,9074
+45,Mujer,9093
+46,Hombre,8785
+46,Mujer,8594
+47,Hombre,8085
+47,Mujer,8203
+48,Hombre,7573
+48,Mujer,7830
+49,Hombre,7112
+49,Mujer,7553
+50,Hombre,6848
+50,Mujer,7452
+51,Hombre,6475
+51,Mujer,7162
+52,Hombre,6201
+52,Mujer,6769
+53,Hombre,5760
+53,Mujer,6386
+54,Hombre,5604
+54,Mujer,6261
+55,Hombre,5061
+55,Mujer,5806
+56,Hombre,4753
+56,Mujer,5459
+57,Hombre,4559
+57,Mujer,5390
+58,Hombre,4234
+58,Mujer,5172
+59,Hombre,4035
+59,Mujer,4948
+60,Hombre,3875
+60,Mujer,4685
+61,Hombre,3545
+61,Mujer,4428
+62,Hombre,3397
+62,Mujer,4343
+63,Hombre,3264
+63,Mujer,4013
+64,Hombre,3005
+64,Mujer,3889
+65,Hombre,3096
+65,Mujer,3714
+66,Hombre,2839
+66,Mujer,3562
+67,Hombre,2429
+67,Mujer,3271
+68,Hombre,2106
+68,Mujer,2907
+69,Hombre,1959
+69,Mujer,2577
+70,Hombre,1777
+70,Mujer,2451
+71,Hombre,1542
+71,Mujer,2140
+72,Hombre,1464
+72,Mujer,2160
+73,Hombre,1405
+73,Mujer,1869
+74,Hombre,1185
+74,Mujer,1565
+75,Hombre,1139
+75,Mujer,1502
+76,Hombre,933
+76,Mujer,1296
+77,Hombre,800
+77,Mujer,1111
+78,Hombre,728
+78,Mujer,1001
+79,Hombre,630
+79,Mujer,821
+80,Hombre,563
+80,Mujer,835
+81,Hombre,481
+81,Mujer,731
+82,Hombre,442
+82,Mujer,630
+83,Hombre,339
+83,Mujer,534
+84,Hombre,287
+84,Mujer,526
+85,Hombre,262
+85,Mujer,453
+86,Hombre,209
+86,Mujer,349
+87,Hombre,162
+87,Mujer,308
+88,Hombre,119
+88,Mujer,245
+89,Hombre,99
+89,Mujer,197
+90,Hombre,323
+90,Mujer,741
