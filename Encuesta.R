@@ -1,5 +1,5 @@
 #Lectura del csv
-encuesta = read.csv("C:/Users/ibane/OneDrive/Documentos/Estadistica/EstadisticaLab/EncuestaLab.csv")
+encuesta = read.csv("C:/Users/UAH/Documents/Estadistica/EstadisticaLab/EncuestaLab.csv")
 print(encuesta)
 #Creacion de tablas con las diferentes columnas
 edad = encuesta$Edad;
