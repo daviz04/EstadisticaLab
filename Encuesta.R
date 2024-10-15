@@ -8,9 +8,6 @@ print(edad)
 sexo = encuesta$Sexo;
 print(sexo)
 
-periodo = encuesta$Periodo;
-print(periodo);
-
 total = encuesta$Total
 print(total)
 
@@ -27,10 +24,14 @@ mujeres = encuesta$Total[encuesta$Sexo == "Mujer"]
 
 #medias de centralizacion
 media_hombres_por_edad = mean(hombres)
+print(media_hombres_por_edad)
 media_mujeres_por_edad = mean(mujeres)
+print(media_mujeres_por_edad)
 
 mediana_hombres_por_edad = median(hombres)
+print(mediana_hombres_por_edad)
 mediana_mujeres_por_edad = median(mujeres)
+print(mediana_mujeres_por_edad)
 
 #medias de dispersion
 rango_de_edad = range(edad)
