@@ -116,15 +116,32 @@ print(totalMujeres)
   kurtosis(mujeres)
 
 #Distribuciones de frecuencia
-  #Intervalos nº de personas inmigrantes por sexo(50, 5000, 10000, 15000, 20000)
+  #Intervalos nº de personas inmigrantes por cantidades y sexo(50, 5000, 10000, 15000, 20000)
+  #Marcas de clases (como son los mismos intervalos para los 2 simplemente lo haré una vez con las mujeres)
+  h=hist(mujeres, breaks= c(50, 5000, 10000, 15000, 20000), plot=FALSE)
+  h$mids
   
   #Hombres
-inmigracionesHombres = cut(hombres, breaks=c(50, 5000, 10000, 15000, 20000), right=FALSE, include.lowest=TRUE)
+  #Frecuencias absolutas
+  inmigracionesHombres = cut(hombres, breaks=c(50, 5000, 10000, 15000, 20000), right=FALSE, include.lowest=TRUE)
 table(inmigracionesHombres)
+  #Frecuencias absolutas acumuladas
 cumsum(table(inmigracionesHombres))
 
+  #Frecuencias relativas
+prop.table(table(inmigracionesHombres))
+  #Frecuencias relativas acumuladas
+cumsum(prop.table(table(inmigracionesHombres)))
+
+
+
   #Mujeres
+  #Frecuencias absolutas
 inmigracionesMujeres = cut(mujeres, breaks=c(50, 5000, 10000, 15000, 20000), right=FALSE, include.lowest=TRUE)
 table(inmigracionesMujeres)
+  #Frecuencias absolutas acumuladas
 cumsum(table(inmigracionesMujeres))
-
+  #Frecuencias relativas
+prop.table(table(inmigracionesMujeres))
+  #Frecuencias relativas acumuladas
+cumsum(prop.table(table(inmigracionesMujeres)))
