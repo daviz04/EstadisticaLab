@@ -145,3 +145,33 @@ cumsum(table(inmigracionesMujeres))
 prop.table(table(inmigracionesMujeres))
   #Frecuencias relativas acumuladas
 cumsum(prop.table(table(inmigracionesMujeres)))
+
+#Dibujar diagramas
+  #Diagrama de caja
+  par(mfrow=c(1,2))
+  boxplot(hombres,
+          ylim=c(0,17000),
+          main="hombres",
+          col = "skyblue")
+  boxplot(mujeres,
+          ylim=c(0,17000),
+          main="mujeres",
+          col = "pink")
+  
+  #Diagrama de barras
+  par(mfrow=c(2,1))
+  barplot(hombres,
+          main = "Número de Hombres Inmigrantes por Edad",
+          xlab = "Edad",
+          ylab = "Número de Hombres",
+          ylim = c(0, 20000),
+          xlim = c(0, 91),
+          col = "skyblue")
+  barplot(mujeres,
+          main = "Número de Mujeres Inmigrantes por Edad",
+          xlab = "Edad",
+          ylab = "Número de Mujeres",
+          ylim = c(0, 17000),
+          xlim = c(0, 91))
+          col = "pink")
+  
