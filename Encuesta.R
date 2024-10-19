@@ -5,7 +5,7 @@ print(encuesta)
 edad = encuesta$Edad;
 print(edad)
 
- #División entre sexos
+#División entre sexos
 sexo = encuesta$Sexo;
 print(sexo)
 
@@ -16,10 +16,11 @@ print(hombres)
 print(mujeres)
 
 #Total de inmigraciones por sexos
+  #Total
 total = encuesta$Total
 print(total)
 
- #Hombres
+  #Hombres
 hombresInmgr = sum(hombres)
 print(hombresInmgr)
 
@@ -65,14 +66,22 @@ print(totalMenoresEdadMujeres)
 totalMujeres = totalMayoresEdadMujeres + totalMenoresEdadMujeres
 print(totalMujeres)
 
+      #menores de edad total
+menoredEdadTotal = sum(menoresEdadHombres+menoresEdadMujeres)
+
+mayoresEdadTotal = sum(mayoresEdadHombres+mayoresEdadMujeres)
 # Medias de centralización
   #Media
+  media_total_por_edad = mean(total)
+  print(media_total_por_edad)
   media_hombres_por_edad = mean(hombres)
   print(media_hombres_por_edad)
   media_mujeres_por_edad = mean(mujeres)
   print(media_mujeres_por_edad)
   
   #Mediana
+  mediana_total_por_edad = median(total)
+  print(mediana_total_por_edad)
   mediana_hombres_por_edad = median(hombres)
   print(mediana_hombres_por_edad)
   mediana_mujeres_por_edad = median(mujeres)
@@ -81,47 +90,57 @@ print(totalMujeres)
   #Moda
   install.packages("modeest")
   library(modeest)
+     #Moda total
+  moda_total = mlv(total, method="mfv")
      #Moda de hombres
-  mlv(hombres, method="mfv")
+  moda_hombre = mlv(hombres, method="mfv")
      #Moda de mujeres
-  mlv(mujeres, method ="mfv")
+  moda_mujeres = mlv(mujeres, method ="mfv")
 
 #medias de dispersion
   #Rango
   rango_de_edad = range(edad)
-  max(edad)-min(edad)
+  max_edad=max(edad)
+  min_edad=min(edad)
   print(rango_de_edad)
   
-  #Varianza (muestral) 
-  var(hombres) 
-  var(mujeres)
+  #Varianza (muestral)
+  var_total=var(total)
+  var_hombres=var(hombres) 
+  var_muejres=var(mujeres)
   
-  #Desviación típica 
-  sd(hombres) 
-  sd(mujeres)
+  #Desviación típica
+  des_tip_total=sd(total)
+  des_tip_hombres=sd(hombres) 
+  des_tip_mujueres=sd(mujeres)
   
   #Coeficiente de variación 
-  sd(hombres)/mean(hombres) 
-  sd(mujeres)/mean(mujeres) 
+  coef_var_total=sd(total)/mean(total)
+  coef_var_hombres=sd(hombres)/mean(hombres) 
+  coef_var_mujeres=sd(mujeres)/mean(mujeres) 
 
 #Medidas de localización
   #Cuartiles
+  summary(total)
   summary(hombres)
   summary(mujeres)
   
   #Rango intercuartílico
-  IQR(hombres)
-  IQR(mujeres)
+  rango_ic_total=IQR(total)
+  rango_ic_hombres=IQR(hombres)
+  rango_ic_mujeres=IQR(mujeres)
 
 #Medidas de forma
   install.packages("e1071")
   library(e1071)
   #Coeficiente de asimetría 
-  skewness(hombres)
-  skewness(mujeres)
+  coef_asimetria_total=skewness(total)
+  coef_asimetria_hombres=skewness(hombres)
+  coef_asimetria_mujeres=skewness(mujeres)
   #Coeficiente de apuntamiento o curtosis
-  kurtosis(hombres)
-  kurtosis(mujeres)
+  coef_apuntamiento_total=kurtosis(total)
+  coef_apuntamiento_hombres=kurtosis(hombres)
+  coef_apuntamiento_muejres=kurtosis(mujeres)
 
 #Distribuciones de frecuencia
   #Intervalos nº de personas inmigrantes por cantidades y sexo(50, 5000, 10000, 15000, 20000)
@@ -129,6 +148,18 @@ print(totalMujeres)
   h=hist(mujeres, breaks= c(50, 5000, 10000, 15000, 20000), plot=FALSE)
   h$mids
   
+  #Total
+  #Frecuencias absolutas
+  inmigracionesTotal = cut(total, breaks=c(50, 5000, 10000, 15000, 20000), right=FALSE, include.lowest=TRUE)
+table(inmigracionesTotal)
+#Frecuencias absolutas acumuladas
+cumsum(table(inmigracionesTotal))
+
+  #Frecuencias relativas
+prop.table(table(inmigracionesTotal))
+  #Frecuencias relativas acumuladas
+cumsum(prop.table(table(inmigracionesTotal)))
+
   #Hombres
   #Frecuencias absolutas
   inmigracionesHombres = cut(hombres, breaks=c(50, 5000, 10000, 15000, 20000), right=FALSE, include.lowest=TRUE)
@@ -140,8 +171,6 @@ cumsum(table(inmigracionesHombres))
 prop.table(table(inmigracionesHombres))
   #Frecuencias relativas acumuladas
 cumsum(prop.table(table(inmigracionesHombres)))
-
-
 
   #Mujeres
   #Frecuencias absolutas
@@ -155,17 +184,6 @@ prop.table(table(inmigracionesMujeres))
 cumsum(prop.table(table(inmigracionesMujeres)))
 
 #Dibujar diagramas
-  #Diagrama de caja
-  par(mfrow=c(1,2))
-  boxplot(hombres,
-          ylim=c(0,17000),
-          main="hombres",
-          col = "skyblue")
-  boxplot(mujeres,
-          ylim=c(0,17000),
-          main="mujeres",
-          col = "pink")
-  
   #Diagrama de barras
   par(mfrow=c(2,1))
   barplot(hombres,
@@ -179,7 +197,6 @@ cumsum(prop.table(table(inmigracionesMujeres)))
           main = "Número de Mujeres Inmigrantes por Edad",
           xlab = "Edad",
           ylab = "Número de Mujeres",
-          ylim = c(0, 17000),
+          ylim = c(0, 20000),
           xlim = c(0, 91))
           col = "pink"
-  
