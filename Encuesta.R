@@ -77,6 +77,14 @@ print(totalMujeres)
   print(mediana_hombres_por_edad)
   mediana_mujeres_por_edad = median(mujeres)
   print(mediana_mujeres_por_edad)
+  
+  #Moda
+  install.packages("modeest")
+  library(modeest)
+     #Moda de hombres
+  mlv(hombres, method="mfv")
+     #Moda de mujeres
+  mlv(mujeres, method ="mfv")
 
 #medias de dispersion
   #Rango
@@ -173,5 +181,5 @@ cumsum(prop.table(table(inmigracionesMujeres)))
           ylab = "Número de Mujeres",
           ylim = c(0, 17000),
           xlim = c(0, 91))
-          col = "pink")
+          col = "pink"
   
