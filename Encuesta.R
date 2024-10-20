@@ -185,7 +185,7 @@ cumsum(prop.table(table(inmigracionesMujeres)))
 
 #Dibujar diagramas
   #Diagrama de barras
-  par(mfrow=c(2,1))
+  par(mfrow=c(1,2))
   barplot(hombres,
           main = "Número de Hombres Inmigrantes por Edad",
           xlab = "Edad",
@@ -198,5 +198,14 @@ cumsum(prop.table(table(inmigracionesMujeres)))
           xlab = "Edad",
           ylab = "Número de Mujeres",
           ylim = c(0, 20000),
-          xlim = c(0, 91))
-          col = "pink"
+          xlim = c(0, 91),
+          col = "pink")
+          
+  barplot(total,
+          main = "Número de Inmigrantes por Edad",
+          xlab = "Edad",
+          ylab = "Total (Hombres y mujeres)",
+          ylim = c(0, 20000),
+          xlim = c(0, 91),
+          col = "green")
+          
